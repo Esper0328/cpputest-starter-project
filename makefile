@@ -25,6 +25,7 @@ endif
 # production code C and CPP files.
 #
 SRC_FILES += example-src/Example.c
+SRC_FILES += src/LedDriver/*.c
 SRC_DIRS += example-platform
 
 # --- TEST_SRC_FILES and TEST_SRC_DIRS ---
@@ -59,6 +60,7 @@ INCLUDE_DIRS += example-include
 INCLUDE_DIRS += example-fff
 INCLUDE_DIRS += tests/exploding-fakes
 INCLUDE_DIRS += tests/fff
+INCLUDE_DIRS += include/LedDriver
 
 
 # --- CPPUTEST_OBJS_DIR ---
